@@ -77,7 +77,7 @@ jobs:
         run: echo "Deploying..."
 
   report: 
-    if: sucess()
+    if: failure()
     runs-on: ubuntu-latest
     steps:
       - name: output information
