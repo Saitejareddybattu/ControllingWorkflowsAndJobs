@@ -1,11 +1,11 @@
-name: Website Deployment
+name: Error added   Website Deployment
 on:
   push:
     branches:
       - main
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latests
     steps:
       - name: Get code
         uses: actions/checkout@v3
