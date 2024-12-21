@@ -1,0 +1,8 @@
+name: reusable file
+on: ...
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy the job
+        run: echo " Deploying my job "
